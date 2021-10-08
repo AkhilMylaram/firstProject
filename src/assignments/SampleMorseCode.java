@@ -28,6 +28,15 @@ public class SampleMorseCode {
           }
 
         }
+        System.out.println("enter the morse code to convert into word");
+        String code=sc.next();
+        for(int i=0;i<str.length;i++)
+        {
+            if(code.equals(str[i]))
+            {
+                System.out.println(c[i]);
+            }
+        }
     }
 
 }
